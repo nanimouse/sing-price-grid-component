@@ -1,0 +1,85 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: Karla;
+}
+
+.container {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.topRow {
+  /* display: flex;
+  justify-content: center; */
+  display: grid;
+
+}
+
+.bottomRow {
+  display: flex;
+  color: hsl(204, 43%, 93%);
+}
+
+#joinUs {
+  border-radius: 3% 3% 0% 0%;
+  flex: 1;
+  background-color: #FFFFFF;
+  height: 200px;
+  padding-left: 35px;
+  padding-top: 30px;
+}
+
+#joinUs h2 {
+  color: #2BB3B1;
+}
+
+#joinUs p {
+  margin-bottom: 0px;
+  line-height: 30px;
+  color: hsl(218, 22%, 67%);
+}
+
+#joinUs h3 {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: -10px;
+}
+
+#monthly {
+  flex: 1;
+  background-color: #2BB3B1;
+  padding-left: 35px;
+  padding-top: 20px;
+  border-radius: 0% 0% 0% 3%;
+}
+
+#price {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#subscription {
+  margin-bottom: 0px;
+}
+
+#deal {
+  margin-top: 7px;
+}
+
+#whyUs {
+  flex: 1;
+  background-color: #4ABEBD;
+  padding-left: 25px;
+  padding-top: 20px;
+  border-radius: 0% 0% 3% 0%;
+}
+
+#whyUs p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.3;
+}
